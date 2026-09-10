@@ -43,4 +43,4 @@ print(report.summary())
 
 We are currently running a **Free Audit Pilot** for Quantitative Researchers. If you want to stress-test your backtest pipeline against 70+ failure scenarios without sharing proprietary alpha logic:
 
-👉 **[Submit a Free Audit Request](https://forms.gle/your-google-form-link)**
+👉 **[Submit a Free Audit Request](https://tally.so/r/68lqB5)**
