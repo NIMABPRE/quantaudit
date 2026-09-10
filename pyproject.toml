@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantaudit"
+version = "0.1.0"
+description = "Automated causal inspection engine for detecting data leakage in backtests."
+readme = "README.md"
+authors = [{ name = "QuantAudit Team" }]
+requires-python = ">=3.9"
+dependencies = [
+    "astor>=0.8.1",
+    "pandas>=1.5.0",
+    "numpy>=1.20.0"
+]
+
+[project.scripts]
+quantaudit = "quantaudit.cli:main"
